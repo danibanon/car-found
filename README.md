@@ -1,4 +1,4 @@
-# CarFound
+# <img src="app/src/main/res/drawable/ic_launcher_foreground.xml" width="48"> CarFound
 
 CarFound is an Android application designed to help you track your car's parking location automatically. By monitoring Bluetooth disconnections from your car's hands-free system, the app captures your GPS coordinates the moment you park.
 
@@ -22,9 +22,9 @@ CarFound is an Android application designed to help you track your car's parking
 ## Showcase
 
 <p align="center">
-  <img src="screenshots/1_onboarding.png" width="30%" />
-  <img src="screenshots/2_background_access.png" width="30%" />
-  <img src="screenshots/3_Main view.jpeg" width="30%" />
+  <img src="fastlane/metadata/android/en-US/images/1_onboarding.png" width="30%" />
+  <img src="fastlane/metadata/android/en-US/images/2_background_access.png" width="30%" />
+  <img src="fastlane/metadata/android/en-US/images/3_Main view.jpeg" width="30%" />
 </p>
 
 ## Getting Started
