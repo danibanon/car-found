@@ -37,3 +37,17 @@ CarFound is an Android application designed to help you track your car's parking
 ## License
 
 This project is licensed under the MIT License.
+
+## Releasing
+
+To generate a release APK:
+1. Go to `Build > Generate Signed Bundle / APK...`
+2. Select `APK` and click `Next`.
+3. Create or select your keystore.
+4. Select `release` build variant.
+5. The APK will be generated in `app/release/`.
+
+Alternatively, use the command line:
+```bash
+./gradlew assembleRelease
+```
