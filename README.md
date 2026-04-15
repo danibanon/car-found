@@ -19,6 +19,14 @@ CarFound is an Android application designed to help you track your car's parking
 - **Maps**: osmdroid
 - **Architecture**: MVVM with Repository pattern
 
+## Showcase
+
+<p align="center">
+  <img src="screenshots/1_onboarding.png" width="30%" />
+  <img src="screenshots/2_background_access.png" width="30%" />
+  <img src="screenshots/3_Main view.jpeg" width="30%" />
+</p>
+
 ## Getting Started
 
 1. Clone the repository.
