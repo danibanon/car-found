@@ -1,0 +1,215 @@
+04-15 02:09:11.063 25077 25099 I TestRunner: started: mapsActionUsesConfiguredLauncher(com.codex.cardisconnecttracker.MainActivityTest)
+04-15 02:09:11.065 25077 25099 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@1c3f4d8]
+04-15 02:09:11.067 25077 25099 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-15 02:09:11.069  1782  2741 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9bc23750 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-15 02:09:11.071 13975 13975 D RecentsView: onTaskDisplayChanged: 3074, new displayId = 0
+04-15 02:09:11.071   611   675 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for binder (0xb400006e5bee05c0) with descriptor: '(not cached)'
+04-15 02:09:11.075 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.075 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.075 13975 13975 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused|state_user_active] -[]
+04-15 02:09:11.075  2673  2711 W DisplayDisconnectTransitionHandler: No disconnect change found in the transition, not handling request.
+04-15 02:09:11.075 13975 13975 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused] -[state_user_active]
+04-15 02:09:11.075 13975 13975 D BaseActivity: Launcher flags updated: [state_started|state_window_focused] -[state_resumed|state_deferred_resumed]
+04-15 02:09:11.075 13975 13975 W SplitSelectStateCtor: Missing session instanceIds
+04-15 02:09:11.075 13975 13975 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-15 02:09:11.081  2673  2751 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda25@a539324
+04-15 02:09:11.083 25077 25077 D LifecycleMonitor: Lifecycle status change: com.codex.cardisconnecttracker.MainActivity@51f221c in: PRE_ON_CREATE
+04-15 02:09:11.083 25077 25077 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-15 02:09:11.084 25123 25123 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+04-15 02:09:11.085 25077 25077 I StorageUtils: /data/user/0/com.codex.cardisconnecttracker/files/osmdroid is writable
+04-15 02:09:11.087 25123 25123 D ViewRootImpl: Skipping stats log for color mode
+04-15 02:09:11.088 25077 25077 D LifecycleMonitor: Lifecycle status change: com.codex.cardisconnecttracker.MainActivity@51f221c in: CREATED
+04-15 02:09:11.088 25077 25077 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.codex.cardisconnecttracker.MainActivity@51f221c
+04-15 02:09:11.088 25077 25077 D LifecycleMonitor: Lifecycle status change: com.codex.cardisconnecttracker.MainActivity@51f221c in: STARTED
+04-15 02:09:11.088 25077 25077 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.codex.cardisconnecttracker.MainActivity@51f221c
+04-15 02:09:11.088 25077 25077 I ContentCaptureHelper: Setting logging level to OFF
+04-15 02:09:11.091 25077 25077 D LifecycleMonitor: Lifecycle status change: com.codex.cardisconnecttracker.MainActivity@51f221c in: RESUMED
+04-15 02:09:11.091 25077 25077 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.codex.cardisconnecttracker.MainActivity@51f221c
+04-15 02:09:11.092 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.096 13975 13975 D BaseActivity: Launcher flags updated: [state_started] -[state_window_focused]
+04-15 02:09:11.096  2673  3224 D WallpaperService: onVisibilityChanged(false): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@e34f479
+04-15 02:09:11.100  1782  2643 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+04-15 02:09:11.100  2868  3166 D TemperatureStateSource: sequence=26374 actualDelay=10000
+04-15 02:09:11.101  2868  3166 D TemperatureStateSource: Reading temperature: sequence=26375
+04-15 02:09:11.103 15056 15056 I pixel-thermal: VIRTUAL-SKIN-MODEL: model_input: [28478.00 28522.00 29858.00 26424.00 26542.00 26659.00 28700.00 31149.00 ]
+04-15 02:09:11.103 15056 15056 I native  : I0000 00:00:1776211751.103118   15056 thermal_tflite_wrapper.cc:261] ThermalTfliteInvoke
+04-15 02:09:11.103 15056 15056 I pixel-thermal: VIRTUAL-SKIN-MODEL: model_output: [27357.7 ]
+04-15 02:09:11.103 15056 15056 I pixel-thermal: VIRTUAL-SKIN-MODEL: predicted_value: [27357.7 ]
+04-15 02:09:11.103 15056 15056 I pixel-thermal: CPU_THROTTLE_SEVERE:0 raw data: CPU_THROTTLE_SEVERE:0
+04-15 02:09:11.103 15056 15056 I pixel-thermal: VIRTUAL-SKIN:27.291 raw data: VIRTUAL-SKIN:27291 VIRTUAL-SKIN-LEGACY:27650.4 VIRTUAL-SKIN-LEGACY-MODEL-DIFF:292.758 VIRTUAL-SKIN-LEGACY-SHUTDOWN:0 VIRTUAL-SKIN-MODEL:27357.7 VIRTUAL-SKIN-MODEL-CLAMPED:27357.7 VIRTUAL-SKIN-MODEL-LEGACY-DIFF:-292.758 VIRTUAL-SKIN-MODEL-UPDATED:27291 VIRTUAL-SKIN-MODEL-UPPER-CLAMPED:27357.7 VIRTUAL-SKIN-SUB-0:26753.4 VIRTUAL-SKIN-SUB-1:27298 VIRTUAL-SKIN-SUB-2:27445.5 VIRTUAL-SKIN-SUB-3:27650.4 VIRTUAL-SKIN-SUB-4:27303.7 VT_LEGACY_WEIGHT:0 VT_MODEL_WEIGHT:1 battery:26600 btmspkr_therm:26542 charging_therm:29858 disp_therm:26659 north_therm:28700 quiet_therm:28522 rfpa_therm:28478 soc_therm:31149 usb_pwr_therm:26424
+04-15 02:09:11.104  2868  3166 D TemperatureStateSource: getDeviceTemperatures: sequence=26375 deviceTemperatureType=3 temperatureSource=0 temperatures=[27.29101]
+04-15 02:09:11.104  2868  3166 D BusinessScope: Enqueuing the block
+04-15 02:09:11.104  2868  3166 D TemperatureStateSource: sequence=26375 waitTime=10000
+04-15 02:09:11.104  2868  4030 D BusinessScope: Start running the #53105 block
+04-15 02:09:11.104 13975 13975 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-15 02:09:11.104 13975 13975 D RecentsView: onTaskRemoved: 3073, not handling task stack changes
+04-15 02:09:11.104 13975 13975 D RecentsView: onTaskRemoved: 3073, not handling task stack changes
+04-15 02:09:11.105 15056 15056 I pixel-thermal: CPU_THROTTLE_SEVERE:0 raw data: CPU_THROTTLE_SEVERE:0
+04-15 02:09:11.105 15056 15056 I pixel-thermal: VIRTUAL-SKIN:27.291 raw data: VIRTUAL-SKIN:27291
+04-15 02:09:11.106  2868  4030 I TemperatureStateSource: temperature was set
+04-15 02:09:11.106  2868  4030 D BusinessScope: Enqueuing the block
+04-15 02:09:11.106  2868  4030 D ImpulseStateSource: Notify clients: 26484
+04-15 02:09:11.106  2868  4030 D BusinessScope: Finish running the #53105 block
+04-15 02:09:11.106  2868  4030 D BusinessScope: Start running the #53106 block
+04-15 02:09:11.106  2868  3109 D ImpulseConnection: bindService: com.google.android.apps.turbo
+04-15 02:09:11.113 13975 13975 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+04-15 02:09:11.113 25077 25077 D VRI[MainActivity]: WindowInsets changed: 1080x2424 statusBars:[0,152,0,0] navigationBars:[0,0,0,69] mandatorySystemGestures:[0,187,0,92]
+04-15 02:09:11.114 16287 16308 I AiAiEcho: (REDACTED) %s No tracked ambient data found for ID: %s; for event type: %d, skipping event processing.
+04-15 02:09:11.114 25077 25077 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda25@43d354b
+04-15 02:09:11.116 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.116  2868  2868 D ImpulseConnection: onServiceConnected: ComponentInfo{com.google.android.apps.turbo/com.google.android.apps.turbo.adaptiveplatform.impulse.ImpulseClientService} service is null false
+04-15 02:09:11.117  2868  3109 D BusinessScope: Finish running the #53106 block
+04-15 02:09:11.118  1534  1534 D AOC     : A3:MSG: tmd3733_device.cc, 4363: USF: TMD3733: R/C:0.59 1CD->2D d_lux:9.8 c_lux:-1.0/-1.0 c_coeff:-1.00/-1.00
+04-15 02:09:11.119  1534  1534 D AOC     : A3:MSG: tmd3733_device.cc, 4366: USF: TMD3733:  w:0.00 C:5.74 d_leak:0.3 c_leak:0.2 lux:9.8 leak:0.3
+04-15 02:09:11.130  1782  1853 I ActivityTaskManager: Displayed com.codex.cardisconnecttracker/.MainActivity for user 0: +60ms
+04-15 02:09:11.132 10951 25156 W Turbo.DeviceHealthLeversManagerImpl: applyLeversWithMaintenanceWindow: ignore the same request
+04-15 02:09:11.135 13975 13975 D BaseActivity: Launcher flags updated: [] -[state_started]
+04-15 02:09:11.135 13975 13975 D BaseDepthController: setSurface:
+04-15 02:09:11.135 13975 13975 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-15 02:09:11.135 13975 13975 D BaseDepthController: 	mBaseSurface: null
+04-15 02:09:11.135 13975 13975 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+04-15 02:09:11.136 13975 13975 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+04-15 02:09:11.136 13975 13975 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:27)
+04-15 02:09:11.136 13975 13975 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:36)
+04-15 02:09:11.136 13975 13975 D LauncherStateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:32)
+04-15 02:09:11.136 13975 13975 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+04-15 02:09:11.137 13975 13975 D KeyboardStateManager: hideKeyboard
+04-15 02:09:11.137 13975 13975 D KeyboardStateManager: isImeShown: false
+04-15 02:09:11.137 13975 13975 D StatsLog: LAUNCHER_ONSTOP
+04-15 02:09:11.137 13975 13975 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+04-15 02:09:11.140  2673  2751 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+04-15 02:09:11.140 13975 14049 D GmsPlayProvider: Shutdown the binder channel gracefully.
+04-15 02:09:11.140 13975 14049 D GmsPlayProvider: Binder channel is terminated gracefully.
+04-15 02:09:11.150  9002  9038 D WM-DelayedWorkTracker: Scheduling work d03d4719-257f-4cee-860a-85853e9aec92
+04-15 02:09:11.151  9002  9038 D WM-GreedyScheduler: Starting tracking for d03d4719-257f-4cee-860a-85853e9aec92
+04-15 02:09:11.156  1782  2306 I ImeTracker: com.codex.cardisconnecttracker:9902fc3c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false userId 0 displayId 0
+04-15 02:09:11.156 25077 25077 I ImeTracker: com.codex.cardisconnecttracker:9902fc3c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-15 02:09:11.157  4203  4203 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2159
+04-15 02:09:11.158  1782  2741 I ImeTracker: system_server:773fbc48: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false displayId 0
+04-15 02:09:11.158  1782  1857 I ImeTracker: system_server:773fbc48: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-15 02:09:11.158  4203  4203 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+04-15 02:09:11.158  4203  4203 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1434 onStartInput(EditorInfo{EditorInfo{packageName=com.codex.cardisconnecttracker, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-15 02:09:11.158  9002  9002 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=d03d4719-257f-4cee-860a-85853e9aec92, generation=0)
+04-15 02:09:11.159  4203  4203 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():312 Update input view padding, isNavbarOverInputWindow=true, bottom inset=138
+04-15 02:09:11.159  4203  4203 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+04-15 02:09:11.169  9002  9037 D WM-ConstraintTracker: a: initial state = true
+04-15 02:09:11.172 16040 16081 I FontLog : (REDACTED) Received query %s, URI %s
+04-15 02:09:11.172 16040 16081 I FontLog : (REDACTED) Query [%s] resolved to %s
+04-15 02:09:11.173 16040 16081 I FontLog : (REDACTED) Fetch %s end status %s
+04-15 02:09:11.175 16040 16081 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+04-15 02:09:11.178 16040 16081 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+04-15 02:09:11.179 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.187  9002  9037 D WM-BrdcstRcvrCnstrntTrc: a: registering receiver
+04-15 02:09:11.191 25077 25077 I OsmDroid: Using tile source: Mapnik
+04-15 02:09:11.192 25077 25077 I OsmDroid: Tile cache increased from 0 to 9
+04-15 02:09:11.195  9002  9037 D WM-Processor: q: processing WorkGenerationalId(workSpecId=d03d4719-257f-4cee-860a-85853e9aec92, generation=0)
+04-15 02:09:11.207  9002  9037 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=d03d4719-257f-4cee-860a-85853e9aec92, generation=0)
+04-15 02:09:11.215  9002  9037 D WM-Processor: Work WorkGenerationalId(workSpecId=d03d4719-257f-4cee-860a-85853e9aec92, generation=0) is already enqueued for processing
+04-15 02:09:11.215  9002  9002 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+04-15 02:09:11.240 25077 25077 I OsmDroid: Tile cache increased from 9 to 16
+04-15 02:09:11.242  9002  9002 I SyncManagerImpl: #sync(). Running Synclets and scheduling next sync.
+04-15 02:09:11.274  9002  9037 I SyncManagerImpl: Running synclets: [TikTokAccountWipeoutSynclet]
+04-15 02:09:11.279  9002  9082 I SyncManagerImpl: Starting synclet: TikTokAccountWipeoutSynclet
+04-15 02:09:11.296  9002  9036 I SyncManagerImpl: #sync() complete
+04-15 02:09:11.298  9002  9036 I SyncManagerImpl: Completed sync. Scheduling next wakeup
+04-15 02:09:11.298  9002  9036 I SyncWorkManagerOneTimeS: Scheduling next onetime WorkManager workers
+04-15 02:09:11.300  9002  9037 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d03d4719-257f-4cee-860a-85853e9aec92, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,com.google.apps.tiktok.sync.impl.workmanager.SyncWorker,sync_constraint:charger,TikTokWorker#com.google.apps.tiktok.sync.impl.workmanager.SyncWorker } ]
+04-15 02:09:11.302  9002  9002 D WM-Processor: q d03d4719-257f-4cee-860a-85853e9aec92 executed; reschedule = false
+04-15 02:09:11.302  9002  9002 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=d03d4719-257f-4cee-860a-85853e9aec92, generation=0)
+04-15 02:09:11.302  9002  9002 D WM-SystemJobService: d03d4719-257f-4cee-860a-85853e9aec92 executed on JobScheduler
+04-15 02:09:11.306  9002  9037 D WM-GreedyScheduler: Cancelling work ID d03d4719-257f-4cee-860a-85853e9aec92
+04-15 02:09:11.309  9002  9037 D WM-GreedyScheduler: Ignoring {WorkSpec: 1156efd3-b0d6-41b2-9366-8d349a139384}. Requires ContentUri triggers.
+04-15 02:09:11.311  9002  9037 D WM-BrdcstRcvrCnstrntTrc: a: unregistering receiver
+04-15 02:09:11.322  9002  9037 D WM-Processor: Processor cancelling e9595070-9331-41ca-b21e-0a40eb9a17b7
+04-15 02:09:11.322  9002  9037 D WM-Processor: WorkerWrapper could not be found for e9595070-9331-41ca-b21e-0a40eb9a17b7
+04-15 02:09:11.328  9002  9037 D WM-GreedyScheduler: Cancelling work ID e9595070-9331-41ca-b21e-0a40eb9a17b7
+04-15 02:09:11.336  9002  9037 D WM-SystemJobScheduler: Scheduling work ID 699127cf-3b97-4953-8e5b-f80bf34336edJob ID 344
+04-15 02:09:11.338  9002  9037 D WM-GreedyScheduler: Ignoring {WorkSpec: 1156efd3-b0d6-41b2-9366-8d349a139384}. Requires ContentUri triggers.
+04-15 02:09:11.340  9002  9037 D WM-Processor: Processor cancelling f88884ea-3c2c-4b59-9110-1888fffdde8f
+04-15 02:09:11.340  9002  9037 D WM-Processor: WorkerWrapper could not be found for f88884ea-3c2c-4b59-9110-1888fffdde8f
+04-15 02:09:11.344  9002  9037 D WM-GreedyScheduler: Cancelling work ID f88884ea-3c2c-4b59-9110-1888fffdde8f
+04-15 02:09:11.360  1782  3226 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9d770fef does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-15 02:09:11.362 13975 13975 D RecentsView: onTaskDisplayChanged: 3075, new displayId = 0
+04-15 02:09:11.363   611   674 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for binder (0xb400006e5beafa20) with descriptor: '(not cached)'
+04-15 02:09:11.365 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.366  2673  2711 W DisplayDisconnectTransitionHandler: No disconnect change found in the transition, not handling request.
+04-15 02:09:11.366 25077 25077 D LifecycleMonitor: Lifecycle status change: com.codex.cardisconnecttracker.MainActivity@51f221c in: PAUSED
+04-15 02:09:11.367 25077 25077 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.codex.cardisconnecttracker.MainActivity@51f221c
+04-15 02:09:11.368 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.371  2673  2751 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda25@ac6a108
+04-15 02:09:11.374   766   766 W powerhal-libperfmgr: Sess(15075), cannot resume, already active
+04-15 02:09:11.383  9002  9037 D WM-SystemJobScheduler: Scheduling work ID 1ac71673-9510-42ec-8e5e-e54032b507a5Job ID 345
+04-15 02:09:11.385  9002  9037 D WM-GreedyScheduler: Ignoring {WorkSpec: 1156efd3-b0d6-41b2-9366-8d349a139384}. Requires ContentUri triggers.
+04-15 02:09:11.392 25077 25077 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-15 02:09:11.397 25123 25123 D VRI[InstrumentationActivityInvoker$EmptyActivity]: WindowInsets changed: 1080x2424 statusBars:[0,152,0,0] navigationBars:[0,0,0,69] mandatorySystemGestures:[0,187,0,92]
+04-15 02:09:11.397 25123 25123 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda25@dfb3730
+04-15 02:09:11.398 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.405  9002  9037 D WM-SystemJobScheduler: Scheduling work ID 3bbbdc36-8426-44c3-9024-21e59681b560Job ID 346
+04-15 02:09:11.408  1782  1853 I ActivityTaskManager: Displayed com.codex.cardisconnecttracker.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +49ms
+04-15 02:09:11.408  2673  2711 W DisplayDisconnectTransitionHandler: No disconnect change found in the transition, not handling request.
+04-15 02:09:11.409   611  3196 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for binder (0xb400006e5bf196c0) with descriptor: '(not cached)'
+04-15 02:09:11.411  9002  9037 D WM-GreedyScheduler: Ignoring {WorkSpec: 1156efd3-b0d6-41b2-9366-8d349a139384}. Requires ContentUri triggers.
+04-15 02:09:11.412 13975 13975 D ViewRootImpl: Skipping stats log for color mode
+04-15 02:09:11.412 13975 13975 D BaseActivity: Launcher flags updated: [state_started] +[state_started]
+04-15 02:09:11.413 13975 13975 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_user_active] +[state_resumed|state_user_active]
+04-15 02:09:11.413 13975 13975 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_user_active] +[]
+04-15 02:09:11.413 13975 13975 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_user_active] +[state_deferred_resumed]
+04-15 02:09:11.414 13975 13975 D StatsLog: LAUNCHER_ONRESUME
+04-15 02:09:11.415  2673  2751 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+04-15 02:09:11.415 13975 13998 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+04-15 02:09:11.419  9002  9037 D WM-Processor: Processor cancelling e14afae2-8001-47a9-887f-3e7f765dcc54
+04-15 02:09:11.419  9002  9037 D WM-Processor: WorkerWrapper could not be found for e14afae2-8001-47a9-887f-3e7f765dcc54
+04-15 02:09:11.420 13975 13975 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+04-15 02:09:11.423  2673  3224 D WallpaperService: onVisibilityChanged(true): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@e34f479
+04-15 02:09:11.423 13975 13975 D BaseDepthController: setSurface:
+04-15 02:09:11.423 13975 13975 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-15 02:09:11.423 13975 13975 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#80697)/@0xba6ca9
+04-15 02:09:11.423 13975 13975 V BaseDepthController: Applying blur: 0 to Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#80697)/@0xba6ca9 applyImmediately: false
+04-15 02:09:11.423 13975 13975 D BaseDepthController: shouldBlurWorkspace: false targetState: Normal currentStableState: Normal mCurrentBlur: 0 mLauncher.getDepthBlurTargets(): [com.android.launcher3.Workspace{5958714 V.ED..... .......D 0,0-1080,2424 #7f0a04ae app:id/workspace}, com.android.launcher3.Hotseat{fdecb17 V.ED..... .......D 0,1906-1080,2424 #7f0a01f6 app:id/hotseat}]
+04-15 02:09:11.431 13975 13975 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-15 02:09:11.432  9002  9037 D WM-GreedyScheduler: Cancelling work ID e14afae2-8001-47a9-887f-3e7f765dcc54
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: StateManager.cancelAnimation: animation ongoing: false, partial trace:
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.setCurrentAnimation(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:60)
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:667)
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: 	at com.android.launcher3.QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner.onAnimationStart(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:95)
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: StateManager.createAtomicAnimation: fromState: Normal, toState: Normal, partial trace:
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:20)
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:11)
+04-15 02:09:11.439 13975 13975 D LauncherStateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 144566bd9520bc83e5304c26b07b13110d583e327fe0d444e5839d5db5f7f1ec:704)
+04-15 02:09:11.439 13975 13975 D AllAppsTransitionController: shouldProtectHeader: false skipScrim: true state: Normal stateManager.getState(): Normal
+04-15 02:09:11.439 13975 13975 D KeyboardInsetsHandler: removePendingImeController: pendingImeController=null
+04-15 02:09:11.439 13975 13975 D b/311077782: LauncherAnimationRunner.setAnimation
+04-15 02:09:11.439 13975 13975 D WorkspaceRevealAnim: onAnimationEnd: workspace alpha = 1.0
+04-15 02:09:11.440 16287 16308 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+04-15 02:09:11.441 16287 16308 I AiAiEcho: (REDACTED) EchoTargets: %s
+04-15 02:09:11.441 16287 16308 I AiAiEcho: Filtered by AiAi flag check: %s
+04-15 02:09:11.441 16287 16308 I AiAiEcho: (REDACTED) #weatherSubItemsTwiddler: Weather removes SubtitleSupplementalItem in surface: %s
+04-15 02:09:11.442 16287 16308 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-15 02:09:11.442 16287 16308 I AiAiEcho: (REDACTED) %s No tracked ambient data found for ID: %s; for event type: %d, skipping event processing.
+04-15 02:09:11.445 16287 16308 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+04-15 02:09:11.447 25077 25077 D LifecycleMonitor: Lifecycle status change: com.codex.cardisconnecttracker.MainActivity@51f221c in: STOPPED
+04-15 02:09:11.447 25077 25077 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.codex.cardisconnecttracker.MainActivity@51f221c
+04-15 02:09:11.452 25123 25123 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-15 02:09:11.454 13975 13975 D SsBaseTemplateCard: Passed-in item info is null
+04-15 02:09:11.454 13975 13975 I SsBaseTemplateCard: setFormattedContentDescription: text=13°C, iconDescription=Clear night, contentDescription=Clear night 13°C
+04-15 02:09:11.454 13975 13975 D SsBaseTemplateCard: Passed-in item info is null
+04-15 02:09:11.454 13975 13975 D SsBaseTemplateCard: Passed-in item info is null
+04-15 02:09:11.454 13975 13975 I SsBaseTemplateCard: Secondary card pane is null
+04-15 02:09:11.455  9002  9037 D WM-SystemJobScheduler: Scheduling work ID 3daae63b-1d84-43c7-8c65-3a7bfc810a79Job ID 347
+04-15 02:09:11.456 13975 13975 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused|state_user_active] +[state_window_focused]
+04-15 02:09:11.457  1782  2306 I ImeTracker: com.google.android.apps.nexuslauncher:36aba87: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false userId 0 displayId 0
+04-15 02:09:11.458 13975 13975 I ImeTracker: com.google.android.apps.nexuslauncher:36aba87: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-15 02:09:11.459 25077 25077 D LifecycleMonitor: Lifecycle status change: com.codex.cardisconnecttracker.MainActivity@51f221c in: DESTROYED
+04-15 02:09:11.459 25077 25077 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-15 02:09:11.460 25077 25077 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+04-15 02:09:11.461 25077 25077 D ViewRootImpl: Skipping stats log for color mode
+04-15 02:09:11.461 25077 25099 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@1c3f4d8]
+04-15 02:09:11.462  1782  6366 I ImeTracker: system_server:d45dae8b: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false displayId 0
+04-15 02:09:11.462  1782  1857 I ImeTracker: system_server:d45dae8b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-15 02:09:11.464  4203  4203 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2159
+04-15 02:09:11.465  4203  4203 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+04-15 02:09:11.465  4203  4203 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1434 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-15 02:09:11.465  4203  4203 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():312 Update input view padding, isNavbarOverInputWindow=true, bottom inset=138
+04-15 02:09:11.465  4203  4203 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+04-15 02:09:11.465  1782  2840 I ImeTracker: system_server:3ad02432: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false displayId 0
+04-15 02:09:11.465 25077 25099 I TestRunner: finished: mapsActionUsesConfiguredLauncher(com.codex.cardisconnecttracker.MainActivityTest)

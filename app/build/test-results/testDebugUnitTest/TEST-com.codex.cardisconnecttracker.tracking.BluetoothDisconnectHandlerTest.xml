@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codex.cardisconnecttracker.tracking.BluetoothDisconnectHandlerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-04-15T00:24:55" hostname="DESKTOP-2VBEMKA" time="3.355">
+  <properties/>
+  <testcase name="second disconnect replaces previous location" classname="com.codex.cardisconnecttracker.tracking.BluetoothDisconnectHandlerTest" time="3.166"/>
+  <testcase name="disconnect from non-selected device is ignored" classname="com.codex.cardisconnecttracker.tracking.BluetoothDisconnectHandlerTest" time="0.045"/>
+  <testcase name="location failure keeps previous saved location and records error" classname="com.codex.cardisconnecttracker.tracking.BluetoothDisconnectHandlerTest" time="0.04"/>
+  <testcase name="clear location removes saved state" classname="com.codex.cardisconnecttracker.tracking.BluetoothDisconnectHandlerTest" time="0.038"/>
+  <testcase name="selected device is required before save" classname="com.codex.cardisconnecttracker.tracking.BluetoothDisconnectHandlerTest" time="0.037"/>
+  <testcase name="selected device disconnect saves latest location" classname="com.codex.cardisconnecttracker.tracking.BluetoothDisconnectHandlerTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

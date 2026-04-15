@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.codex.cardisconnecttracker.MainActivityTest" tests="6" failures="0" errors="0" skipped="0" time="3.086" timestamp="2026-04-15T00:09:11" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel 9a - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="showsPermissionDialogWhenPermissionsMissing" classname="com.codex.cardisconnecttracker.MainActivityTest" time="0.464" />
+  <testcase name="mapsActionUsesConfiguredLauncher" classname="com.codex.cardisconnecttracker.MainActivityTest" time="0.383" />
+  <testcase name="showsFinalStepWhenBackgroundLocationMissing" classname="com.codex.cardisconnecttracker.MainActivityTest" time="0.262" />
+  <testcase name="selectingDevicePersistsState" classname="com.codex.cardisconnecttracker.MainActivityTest" time="0.31" />
+  <testcase name="debugDisconnectBroadcastUpdatesUi" classname="com.codex.cardisconnecttracker.MainActivityTest" time="0.439" />
+  <testcase name="dismissesWelcomeAndShowsDashboardWhenSetupComplete" classname="com.codex.cardisconnecttracker.MainActivityTest" time="0.438" />
+</testsuite>

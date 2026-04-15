@@ -1,0 +1,328 @@
+# 2026-04-15T00:09:11.276385800Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 6
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.codex.cardisconnecttracker"
+    test_method: "showsPermissionDialogWhenPermissionsMissing"
+    start_time {
+      seconds: 1776211748
+      nanos: 132000000
+    }
+    end_time {
+      seconds: 1776211748
+      nanos: 646000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\logcat-com.codex.cardisconnecttracker.MainActivityTest-showsPermissionDialogWhenPermissionsMissing.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.codex.cardisconnecttracker"
+    test_method: "mapsActionUsesConfiguredLauncher"
+    start_time {
+      seconds: 1776211748
+      nanos: 664000000
+    }
+    end_time {
+      seconds: 1776211749
+      nanos: 53000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\logcat-com.codex.cardisconnecttracker.MainActivityTest-mapsActionUsesConfiguredLauncher.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.codex.cardisconnecttracker"
+    test_method: "showsFinalStepWhenBackgroundLocationMissing"
+    start_time {
+      seconds: 1776211749
+      nanos: 56000000
+    }
+    end_time {
+      seconds: 1776211749
+      nanos: 317000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\logcat-com.codex.cardisconnecttracker.MainActivityTest-showsFinalStepWhenBackgroundLocationMissing.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.codex.cardisconnecttracker"
+    test_method: "selectingDevicePersistsState"
+    start_time {
+      seconds: 1776211749
+      nanos: 320000000
+    }
+    end_time {
+      seconds: 1776211749
+      nanos: 630000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\logcat-com.codex.cardisconnecttracker.MainActivityTest-selectingDevicePersistsState.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.codex.cardisconnecttracker"
+    test_method: "debugDisconnectBroadcastUpdatesUi"
+    start_time {
+      seconds: 1776211749
+      nanos: 633000000
+    }
+    end_time {
+      seconds: 1776211750
+      nanos: 74000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\logcat-com.codex.cardisconnecttracker.MainActivityTest-debugDisconnectBroadcastUpdatesUi.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.codex.cardisconnecttracker"
+    test_method: "dismissesWelcomeAndShowsDashboardWhenSetupComplete"
+    start_time {
+      seconds: 1776211750
+      nanos: 76000000
+    }
+    end_time {
+      seconds: 1776211750
+      nanos: 515000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\logcat-com.codex.cardisconnecttracker.MainActivityTest-dismissesWelcomeAndShowsDashboardWhenSetupComplete.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\user\\Desktop\\car-tracker\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel 9a - 16\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

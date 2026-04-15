@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codex.cardisconnecttracker.tracking.BootStartDeciderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-04-15T00:24:58" hostname="DESKTOP-2VBEMKA" time="0.08">
+  <properties/>
+  <testcase name="boot start blocked without permissions" classname="com.codex.cardisconnecttracker.tracking.BootStartDeciderTest" time="0.079"/>
+  <testcase name="boot start requires configured device and permissions" classname="com.codex.cardisconnecttracker.tracking.BootStartDeciderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

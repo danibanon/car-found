@@ -1,0 +1,44 @@
+package com.google.android.gms.libs.identity;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.internal.ClientIdentity;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelReader;
+import com.google.android.gms.location.DeviceOrientationRequest;
+import java.util.List;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-location@@21.2.0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class zzi implements Parcelable.Creator {
+    @Override // android.os.Parcelable.Creator
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        int iValidateObjectHeader = SafeParcelReader.validateObjectHeader(parcel);
+        DeviceOrientationRequest deviceOrientationRequest = zzh.zzb;
+        List listCreateTypedList = zzh.zza;
+        String strCreateString = null;
+        while (parcel.dataPosition() < iValidateObjectHeader) {
+            int header = SafeParcelReader.readHeader(parcel);
+            switch (SafeParcelReader.getFieldId(header)) {
+                case 1:
+                    deviceOrientationRequest = (DeviceOrientationRequest) SafeParcelReader.createParcelable(parcel, header, DeviceOrientationRequest.CREATOR);
+                    break;
+                case 2:
+                    listCreateTypedList = SafeParcelReader.createTypedList(parcel, header, ClientIdentity.CREATOR);
+                    break;
+                case 3:
+                    strCreateString = SafeParcelReader.createString(parcel, header);
+                    break;
+                default:
+                    SafeParcelReader.skipUnknownField(parcel, header);
+                    break;
+            }
+        }
+        SafeParcelReader.ensureAtEnd(parcel, iValidateObjectHeader);
+        return new zzh(deviceOrientationRequest, listCreateTypedList, strCreateString);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object[] newArray(int i) {
+        return new zzh[i];
+    }
+}

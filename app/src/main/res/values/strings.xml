@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CarFound</string>
+    <string name="tracking_notification_title">CarFound</string>
+    <string name="tracking_notification_text">Automatic parking detection is ready.</string>
+    <string name="tracking_channel_name">Car Connection Monitoring</string>
+    <string name="permission_button">Grant Permissions</string>
+    <string name="refresh_button">Refresh List</string>
+    <string name="settings_button">System Settings</string>
+    <string name="maps_button">Show on Map</string>
+    <string name="clear_button">Clear Location</string>
+    <string name="select_device">Car\'s Bluetooth</string>
+    <string name="saved_location">Last Parked Location</string>
+    <string name="no_saved_location">No location saved yet.</string>
+    <string name="no_address">Address unavailable</string>
+    <string name="status_permissions_required">Permissions Required</string>
+    <string name="status_permissions_description">Grant Bluetooth and location permissions so CarFound can save your parking spot automatically.</string>
+    <string name="status_background_location_required">Background Location Needed</string>
+    <string name="status_background_location_description">Please set location permission to \"Allow all the time\" in system settings for reliable tracking.</string>
+    <string name="status_choose_car">Connect Your Car</string>
+    <string name="status_choose_car_description">Select your car\'s Bluetooth device from the list below to begin monitoring.</string>
+    <string name="status_active">Monitoring Active</string>
+    <string name="status_active_description">Watching for %1$s to disconnect. Parking spot will be saved automatically.</string>
+
+    <string name="welcome_title">Hi CarFounders!</string>
+    <string name="welcome_desc">CarFound automatically marks your parking spot whenever your car\'s Bluetooth disconnects.\n\nAll data stays private on your device.\nYou can check the source code on https://github.com/danibanon/car-found</string>
+    <string name="welcome_button">Get Started</string>
+
+    <string name="bg_perm_title">Background Access</string>
+    <string name="bg_perm_desc">Select \"Allow all the time\" for location access. This ensures tracking works reliably in your pocket.</string>
+    <string name="bg_perm_button">Allow all the time</string>
+
+    <string name="device_setup_title">Connect Your Car</string>
+    <string name="device_setup_desc">Pick the car\'s Bluetooth device. Tracking starts as soon as it disconnects.</string>
+
+    <string name="tile_permissions">Permissions</string>
+    <string name="tile_device">Select Your Car</string>
+    <string name="tile_location">YOUR CAR\'S LOCATION</string>
+    <string name="find_my_car">FIND MY CAR</string>
+
+    <string name="perm_bluetooth">Bluetooth Connection</string>
+    <string name="perm_location_foreground">Location Access</string>
+    <string name="perm_location_background">Background Location</string>
+    <string name="perm_notifications">Notifications</string>
+    <string name="perm_battery">Battery Opt.</string>
+
+    <string name="perm_granted">Granted</string>
+    <string name="perm_missing">Missing</string>
+    <string name="perm_optimized">Optimized</string>
+    <string name="perm_unrestricted">Unrestricted</string>
+
+    <string name="battery_dialog_title">Background Reliability</string>
+    <string name="battery_dialog_desc">Android may "sleep" CarFound to save power. For 100% reliable tracking, please set Battery to "Unrestricted" in system settings.</string>
+    <string name="battery_button">Remove Battery Restrictions</string>
+
+    <string name="first_location_dialog_title">Initial Location Set</string>
+    <string name="first_location_dialog_desc">This is your current location where you setup the app. Whenever you disconnect from %1$s, the location will automatically update here.</string>
+</resources>

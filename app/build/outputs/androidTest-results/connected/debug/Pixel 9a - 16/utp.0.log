@@ -1,0 +1,31 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.codex.cardisconnecttracker"
+    test_package: "com.codex.cardisconnecttracker.test"
+    test_runner_class: "com.codex.cardisconnecttracker.test.CarTrackerTestRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.codex.cardisconnecttracker/additional_test_output"
+    }
+    no_window_animation: true
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [C:\Users\user\Desktop\car-tracker\app\build\outputs\apk\debug\app-debug.apk] on device 5A131JEBF13225.
+INFO: Installing [C:\Users\user\Desktop\car-tracker\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk] on device 5A131JEBF13225.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.codex.cardisconnecttracker for device 5A131JEBF13225.
+INFO: Uninstalling com.codex.cardisconnecttracker.test for device 5A131JEBF13225.
+INFO: Execute com.codex.cardisconnecttracker.MainActivityTest.showsPermissionDialogWhenPermissionsMissing: PASSED
+INFO: Execute com.codex.cardisconnecttracker.MainActivityTest.mapsActionUsesConfiguredLauncher: PASSED
+INFO: Execute com.codex.cardisconnecttracker.MainActivityTest.showsFinalStepWhenBackgroundLocationMissing: PASSED
+INFO: Execute com.codex.cardisconnecttracker.MainActivityTest.selectingDevicePersistsState: PASSED
+INFO: Execute com.codex.cardisconnecttracker.MainActivityTest.debugDisconnectBroadcastUpdatesUi: PASSED
+INFO: Execute com.codex.cardisconnecttracker.MainActivityTest.dismissesWelcomeAndShowsDashboardWhenSetupComplete: PASSED
