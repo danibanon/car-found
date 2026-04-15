@@ -1,6 +1,6 @@
-# Car Disconnect Tracker
+# CarFound
 
-Car Disconnect Tracker is an Android application designed to help you track your car's parking location automatically. By monitoring Bluetooth disconnections from your car's hands-free system, the app captures your GPS coordinates the moment you park.
+CarFound is an Android application designed to help you track your car's parking location automatically. By monitoring Bluetooth disconnections from your car's hands-free system, the app captures your GPS coordinates the moment you park.
 
 ## Features
 

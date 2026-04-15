@@ -13,3 +13,10 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Decompiled output
+/apktool-out/
+/jadx-out/
+
+# Keystore
+release-key.jks

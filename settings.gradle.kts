@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "car-tracker"
+rootProject.name = "car-found"
 include(":app")
